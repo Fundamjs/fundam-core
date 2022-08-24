@@ -1,0 +1,1 @@
+export const BUILD_TEST = 'BUILD_TEST'

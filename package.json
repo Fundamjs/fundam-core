@@ -1,0 +1,58 @@
+{
+  "name": "fundam-core",
+  "description": "fundam core packages.",
+  "workspaces": [
+    "packages/*"
+  ],
+  "private": true,
+  "scripts": {
+    "dev": "dumi dev",
+    "bootstrap": "lerna bootstrap",
+    "build": "lerna exec -- yarn build",
+    "publish": "lerna publish --conventional-commits"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fundamjs/fundam-core.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Fundamjs/fundam-core/issues"
+  },
+  "homepage": "https://github.com/Fundamjs/fundam-core#readme",
+  "devDependencies": {
+    "@ant-design/icons": "^4.7.0",
+    "@babel/standalone": "^7.18.13",
+    "@rollup/plugin-commonjs": "^19.0.2",
+    "@types/node": "^18.7.12",
+    "@types/react": "^18.0.17",
+    "@types/react-dom": "^18.0.6",
+    "antd": "^4.22.7",
+    "axios": "^0.27.2",
+    "cz-conventional-changelog": "^3.3.0",
+    "dumi": "^1.1.47",
+    "gogocode": "^1.0.55",
+    "immer": "^9.0.15",
+    "lerna": "^5.4.3",
+    "less": "^4.1.3",
+    "less-plugin-npm-import": "^2.1.0",
+    "moment": "^2.29.4",
+    "postcss": "^8.4.16",
+    "prop-types": "^15.8.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-query": "^4.0.0",
+    "react-router": "^6.3.0",
+    "react-router-dom": "^6.3.0",
+    "rollup": "^2.78.1",
+    "rollup-plugin-external-globals": "^0.6.1",
+    "rollup-plugin-inject-process-env": "^1.3.1",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-postcss": "^4.0.2",
+    "rollup-plugin-terser": "^7.0.2",
+    "rollup-plugin-typescript2": "^0.33.0",
+    "typescript": "^4.7.4",
+    "zustand": "^4.1.1"
+  }
+}
